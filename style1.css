@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-image: url(./assets/images/hockey\ \ 1.jpg);
+    margin-top: 3rem;
+    position: relative;
+}
+h1{
+    position: absolute;
+    bottom: 11rem;
+}
+img{
+    background-color: blueviolet;
+    
+}
