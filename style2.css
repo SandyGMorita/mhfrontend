@@ -4,15 +4,17 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
+
 header {
- 
-      
+
+
     background-image: url(./assets/images/design1_image1.jpg);
     margin-top: 100px;
     background-position: 10px -200px;
-    
+
 
 }
+
 h1 {
     font-weight: bold;
     font-size: 70px;
@@ -21,6 +23,7 @@ h1 {
     position: relative;
     top: -250px;
 }
+
 .caja-1 {
     width: 150px;
     position: relative;
@@ -35,36 +38,45 @@ h3 {
     border: black solid;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    position: relative;  
+    position: relative;
     color: black
+}
+
+ul {
+    list-style-type: none;
+
 
 }
-li{
-    background-color: rgb(72, 173, 72);
-    color: white;
+
+li {
+    position: relative;
+    color: negro;
     font-weight: bold;
     font-size: x-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style-type: none;
-    display: inline;
     text-align: center;
-    box-shadow:  0px 10px 10px -6px black;;
-    margin: 0 10px 0 0;
-    position:relative;
-    bottom: 310px;
-    left: 1200px;
+    float: right;
+    margin-right: 15px;
+    padding: 0 4px;
     text-decoration: none;
- 
-    
+    bottom: 310px;
+    display: flex;
+    flex-direction: column-reverse;
+
 }
 
+
+
+
 h4 {
-    font-weight:bold ;
+    font-weight: bold;
     font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     position: relative;
+    padding: 10px;
 }
+
 p {
     font-weight: lighter;
     font-size: x-large;
@@ -73,9 +85,46 @@ p {
     margin-left: 10px;
     margin-bottom: 10px;
 }
-.caja-2{
-    
+
+.caja-2 {
+
     position: relative;
     bottom: -20px;
     margin-left: 300px;
+}
+
+section{
+    position: relative;
+    bottom: -20px;
+    margin-left: 300px;
+    padding: 10px;
+
+}
+dt{
+    font-weight: bold;
+    font-size:x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+dd{ font-weight: lighter;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: static;
+    padding: 10px;
+    
+
+}
+.reglas { 
+    font-weight: lighter;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: static;
+    display: flex;
+   padding: 10px;
+   text-align: right;
+}
+   
+    
+    
+
 }
