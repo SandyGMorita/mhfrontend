@@ -15,6 +15,18 @@ header {
 
 }
 
+.menu {
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    background-color: blueviolet;
+    position: relative;
+    bottom: 200px;
+    list-style-type: none;
+    left: 200px;
+    justify-content: flex-start;
+}
+
 h1 {
     font-weight: bold;
     font-size: 70px;
@@ -31,7 +43,23 @@ h1 {
     bottom: -350px;
     background-color: blueviolet;
 }
+.menu{
+    position: relative;
+    color: negro;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    box-shadow: 0px 10px 10px -6px black;
+    margin: 0 10px 0 0;
+    bottom: 300px;
+    left: 600px;
 
+   
+    
+}
 h3 {
     font-weight: bold;
     font-size: 40px;
@@ -42,30 +70,6 @@ h3 {
     color: black
 }
 
-ul {
-    list-style-type: none;
-
-
-}
-
-li {
-    position: relative;
-    color: negro;
-    font-weight: bold;
-    font-size: x-large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    float: right;
-    margin-right: 15px;
-    padding: 0 4px;
-    text-decoration: none;
-    bottom: 310px;
-    display: flex;
-    flex-direction: column-reverse;
-
-}
-
-
 
 
 h4 {
@@ -75,6 +79,7 @@ h4 {
     font-style: italic;
     position: relative;
     padding: 10px;
+    text-align: left;
 }
 
 p {
@@ -93,38 +98,73 @@ p {
     margin-left: 300px;
 }
 
-section{
+section {
     position: relative;
-    bottom: -20px;
-    margin-left: 300px;
+    bottom: 20px;
+    margin-left: 250px;
     padding: 10px;
 
 }
-dt{
+
+dt {
     font-weight: bold;
-    font-size:x-large;
+    font-size: x-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px;
 }
-dd{ font-weight: lighter;
+
+dd {
+    font-weight: lighter;
     font-size: x-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: static;
     padding: 10px;
-    
+
 
 }
-.reglas { 
+
+.reglas {
     font-weight: lighter;
     font-size: x-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: static;
     display: flex;
-   padding: 10px;
-   text-align: right;
-}
-   
-    
-    
+    padding: 10px;
+    text-align: right;
+    align-items: flex-start;
 
+}
+tr{
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: static;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+table{
+    padding: 40px 40px 40px;
+    
+}
+table tr {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  table thead{
+    background-color: orange;
+ }
+ table tbody{
+    background-color: yellow;
+ }
+footer {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 5px;
+    align-items: flex-start;
+    margin-right: 15px;
+    
+  
 }
