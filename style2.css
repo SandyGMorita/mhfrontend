@@ -14,7 +14,6 @@ header {
 
 
 }
-
 .menu {
     text-decoration: none;
     display: flex;
@@ -60,6 +59,18 @@ h1 {
    
     
 }
+.menu {
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    background-color: blueviolet;
+    position: relative;
+    bottom: 200px;
+    list-style-type: none;
+    left: 200px;
+    justify-content: flex-start;
+}
+
 h3 {
     font-weight: bold;
     font-size: 40px;
@@ -168,3 +179,23 @@ footer {
     
   
 }
+.formulario{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(218, 218, 151);
+   position: relative;
+   height: 400px;
+}
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+}
+legend{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+
+}
+.btn {
+    display: block;
+    margin: 1em 0;
+  }

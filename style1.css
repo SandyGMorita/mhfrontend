@@ -39,7 +39,7 @@ h3 {
     color: antiquewhite;
 }
 
-li{
+li {
     font-weight: bold;
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -73,12 +73,13 @@ p {
 .caja-2 {
 
     position: relative;
-    bottom: 250px;
+    bottom: 300px;
     margin-left: 300px;
 }
+
 section {
     position: relative;
-    bottom: 300px;
+    bottom: 630px;
     margin-left: 250px;
     padding: 10px;
 
@@ -100,6 +101,7 @@ dd {
 
 
 }
+
 .reglas {
     font-weight: lighter;
     font-size: x-large;
@@ -111,7 +113,16 @@ dd {
     align-items: flex-start;
 
 }
-tr{
+.tabla1{  position: relative;
+    bottom: -300px;
+    margin-left: -80px;
+    padding: 10px;
+
+
+  
+
+}
+tr {
     font-weight: bold;
     font-size: x-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -119,27 +130,69 @@ tr{
     margin-left: 10px;
     margin-bottom: 10px;
 }
-table{
-    padding: 30px 30px 30px;
-    
+
+table {
+    padding: 300px 30px 30px;
+
 }
+
 table tr {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    
-  }
-  table thead{
-    background-color: orange;
- }
- table tbody{
-    background-color: yellow;
- }
-footer {
-    display: flex;
-    justify-content: right;
-    align-items: flex-end;
-  
-   
+
 }
+
+table thead {
+    background-color: orange;
+}
+
+table tbody {
+    background-color: yellow;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.titulo{
+    position: relative;
+    bottom: 300px;
+    margin-left: 180px;
+    padding: 10px;
+
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 233, 79);
+    position: relative;
+    height: 370px;
+    bottom: 470px;
+    margin: 200px;
+}
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+legend {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+
+}
+
+.btn {
+    display: block;
+    margin: 1em 0;
+}
+.reglas2{
+    position: relative;
+    bottom: -300px;
+    margin-left: -80px;
+    padding: 10px;
+}
+
