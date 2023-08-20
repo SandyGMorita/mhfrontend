@@ -7,15 +7,16 @@
     <link rel="shortcut icon" href="assets/images/Logo Mighty ducks-01.png" type="image/x-icon">
     <title>Registration</title>
     <link rel="stylesheet" href="./style1.css">
-    <!--<link rel="stylesheet" href="./style2.css">-->
+    <!--link rel="stylesheet" href="./style2.css">-->
 </head>
 
 
 <body>
+    <header>
 
-    <div="caja-1"><img src="./assets/images/Logo Mighty ducks-01.png" alt="logo" width="150">
+        <div class="caja-1"><img src="./assets/images/Logo Mighty ducks-01.png" alt="logo" width="150">
 
-        </di>
+        </div>
 
         <h1>Mighty Ducks Hockey League</h1>
 
@@ -27,108 +28,137 @@
             <li class="menu"><a href="./index.html">Home</a></li>
             <li class="menu"><a href="./about_mdhl.html">About MDHL</a></li>
             <li class="menu"><a href="./contact.html">Contacto</a></li>
-           <li class="menu"><a href="./rules.html"></a></li>
+            <li class="menu"><a href="./rules.html"></a></li>
             <li class="menu"><a href="./game-information.html">Game Information</a></li>
             <li class="menu"><a href="#">Registration form</a></li>
         </ul>
     </nav>
     <main>
         <div class="formulario">
-        <form action="./show_data.html" method="get">
-            <fieldset>
-                <legend>Datos Personales</legend>
-                <label for="nombre">Player's First Name:</label>
-                <input type="text" id="nombre" name="nombre">
-                <label for="apellido">Last Name:</label>
-                <input type="text" id="apellido" name="apellido">
+            <form action="./show_data.html" method="get">
                 <fieldset>
-                    <label for="calle">Street Adress:</label>
-                    <input type="text" name="calle" id="calle">
-                    <label for="ciudad">City:</label>
-                    <input type="text" name="ciudad" id="ciudad">
-                    <label for="cp">Zip Code:</label>
-                    <input type="number" name="cp" id="cp">
-                </fieldset>
-                <fieldset>
-                    <label for="cumpleaños">Birth Date (dd/mm/yyyy):</label>
-                    <input type="date" name="cumpleaños" id="cumpleaños">
-                    <legend for="genero">Gender:</legend>
-                    <label for="masculino">Male</label>
-                    <input type="checkbox" name="genero" id="masculino" value="masculino">
-                    <label for="femenino">Female</label>
-                    <input type="checkbox" name="genero" id="femenino" value="femenino">
-                </fieldset>
-                <fieldset>
-                    <legend for="grado">Grade:</legend>
-                    <label for="preescolar">Pre-School</label>
-                    <input type="checkbox" name="grado" id="preescolar" value="preescolar">
-                    <label for="grado1">1 st</label>
-                    <input type="checkbox" name="grado" id="grado1" value="grado1">
-                    <label for="grado2">2 st</label>
-                    <input type="checkbox" name="grado" id="grado2" value="grado2">
-                    <label for="grado3">3 st</label>
-                    <input type="checkbox" name="grado" id="grado3" value="grado3">
-                    <label for="grado4">4 st</label>
-                    <input type="checkbox" name="grado" id="grado4" value="grado4">
-                    <label for="grado5">5 st</label>
-                    <input type="checkbox" name="grado" id="grado5" value="grado5">
-                </fieldset>
-                <fieldset>
-                    <legend>Which elementary school do you live near?</legend>
-                    <legend for="colegiocercano">Closest School:</legend>
-                    <label for="colegio1">AJ Katzenmaier</label>
-                    <input type="checkbox" name="colegiocercano" id="colegio1" value="colegio1">
-                    <label for="colegio2">Greenbay</label>
-                    <input type="checkbox" name="colegiocercano" id="colegio2" value="colegio2">
-                    <label for="colegio3">Howard A Yeager</label>
-                    <input type="checkbox" name="colegiocercano" id="colegio3" value="colegio3">
-                    <label for="colegio4">Marjorie P Hart</label>
-                    <input type="checkbox" name="colegiocercano" id="colegio4" value="colegio4">
-                    <label for="colegio5">North Elementary</label>
-                    <input type="checkbox" name="colegiocercano" id="colegio5" value="colegio5">
-                    <label for="colegio6">South Elementary</label>
-                    <input type="checkbox" name="colegiocercano" id="colegio6" value="colegio6">
+                    <legend>Datos Personales</legend>
+                    <label for="nombre">Player's First Name:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <label for="apellido">Last Name:</label>
+                    <input type="text" id="apellido" name="apellido">
+                    <fieldset>
+                        <label for="calle">Street Adress:</label>
+                        <input type="text" name="calle" id="calle">
+                        <label for="ciudad">City:</label>
+                        <input type="text" name="ciudad" id="ciudad">
+                        <label for="cp">Zip Code:</label>
+                        <input type="number" name="cp" id="cp">
+                    </fieldset>
+                    <fieldset>
+                        <label for="cumpleaños">Birth Date (dd/mm/yyyy):</label>
+                        <input type="date" name="cumpleaños" id="cumpleaños">
+                        <legend for="genero">Gender:</legend>
+                        <label for="masculino">Male</label>
+                        <input type="checkbox" name="genero" id="masculino" value="masculino">
+                        <label for="femenino">Female</label>
+                        <input type="checkbox" name="genero" id="femenino" value="femenino">
+                    </fieldset>
+                    <fieldset>
+                        <legend for="grado">Grade:</legend>
+                        <label for="preescolar">Pre-School</label>
+                        <input type="checkbox" name="grado" id="preescolar" value="preescolar">
+                        <label for="grado1">1 st</label>
+                        <input type="checkbox" name="grado" id="grado1" value="grado1">
+                        <label for="grado2">2 st</label>
+                        <input type="checkbox" name="grado" id="grado2" value="grado2">
+                        <label for="grado3">3 st</label>
+                        <input type="checkbox" name="grado" id="grado3" value="grado3">
+                        <label for="grado4">4 st</label>
+                        <input type="checkbox" name="grado" id="grado4" value="grado4">
+                        <label for="grado5">5 st</label>
+                        <input type="checkbox" name="grado" id="grado5" value="grado5">
+                    </fieldset>
+                    <fieldset>
+                       
+                        <legend>Which elementary school do you live near?</legend>
+                        <legend for="colegiocercano">Closest School:</legend>
+                        <label for="colegio1">AJ Katzenmaier</label>
+                        <input type="checkbox" name="colegiocercano" id="colegio1" value="colegio1">
+                        <label for="colegio2">Greenbay</label>
+                        <input type="checkbox" name="colegiocercano" id="colegio2" value="colegio2">
+                        <label for="colegio3">Howard A Yeager</label>
+                        <input type="checkbox" name="colegiocercano" id="colegio3" value="colegio3">
+                        <label for="colegio4">Marjorie P Hart</label>
+                        <input type="checkbox" name="colegiocercano" id="colegio4" value="colegio4">
+                        <label for="colegio5">North Elementary</label>
+                        <input type="checkbox" name="colegiocercano" id="colegio5" value="colegio5">
+                        <label for="colegio6">South Elementary</label>
+                        <input type="checkbox" name="colegiocercano" id="colegio6" value="colegio6">
+
+                    </fieldset>
+                    <fieldset>
+                        <legend for="posicion">What position(s) do you normally play? (check all that apply)</legend>
+                        <label for="adelante">Forward</label>
+                        <input type="checkbox" name="posicion" id="adelante" value="adelante">
+                        <label for="defensa">Defense</label>
+                        <input type="checkbox" name="posicion" id="defensa" value="defensa">
+                        <label for="centro">Midfield</label>
+                        <input type="checkbox" name="posicion" id="centro" value="centro">
+                        <label for="arquero">Goalkeeper</label>
+                        <input type="checkbox" name="arquero" id="arquero">
+
+                    </fieldset>
+                    <fieldset>
+                        <legend for="uniforme">Uniform Size:</legend>
+                        <label for="jovenpequeño">Youth Smal</label>
+                        <input type="checkbox" name="uniforme" id="jovenpequeño" value="jovenpequeño">
+                        <label for="jovenmediano">Youth Medium</label>
+                        <input type="checkbox" name="uniforme" id="jovenmediano" value="jovenmediano">
+                        <label for="jovengrande">Youth Large</label>
+                        <input type="checkbox" name="uniforme" id="jovengrande" value="jovengrande">
+                        <label for="pequeño">Small</label>
+                        <input type="checkbox" name="uniforme" id="pequeño" value="pequeño">
+                        <label for="mediano">Medium</label>
+                        <input type="checkbox" name="uniforme" id="mediano" value="mediano">
+                        <label for="grande">Large</label>
+                        <input type="checkbox" name="uniforme" id="grande" value="grande">
+                        <label for="extragrande">Extra-Large</label>
+                        <input type="checkbox" name="uniforme" id="extragrande" value="extragrande">
+
+                    </fieldset>
+                    <input class="btn" type="submit" value="enviar" />
 
                 </fieldset>
-                <fieldset>
-                    <legend for="posicion">What position(s) do you normally play? (check all that apply)</legend>
-                    <label for="adelante">Forward</label>
-                    <input type="checkbox" name="posicion" id="adelante" value="adelante">
-                    <label for="defensa">Defense</label>
-                    <input type="checkbox" name="posicion" id="defensa" value="defensa">
-                    <label for="centro">Midfield</label>
-                    <input type="checkbox" name="posicion" id="centro" value="centro">
-                    <label for="arquero">Goalkeeper</label>
-                    <input type="checkbox" name="arquero" id="arquero">
-
-                </fieldset>
-                <fieldset>
-                    <legend for="uniforme">Uniform Size:</legend>
-                    <label for="jovenpequeño">Youth Smal</label>
-                    <input type="checkbox" name="uniforme" id="jovenpequeño" value="jovenpequeño">
-                    <label for="jovenmediano">Youth Medium</label>
-                    <input type="checkbox" name="uniforme" id="jovenmediano" value="jovenmediano">
-                    <label for="jovengrande">Youth Large</label>
-                    <input type="checkbox" name="uniforme" id="jovengrande" value="jovengrande">
-                    <label for="pequeño">Small</label>
-                    <input type="checkbox" name="uniforme" id="pequeño" value="pequeño">
-                    <label for="mediano">Medium</label>
-                    <input type="checkbox" name="uniforme" id="mediano" value="mediano">
-                    <label for="grande">Large</label>
-                    <input type="checkbox" name="uniforme" id="grande" value="grande">
-                    <label for="extragrande">Extra-Large</label>
-                    <input type="checkbox" name="uniforme" id="extragrande" value="extragrande">
-                  
-                </fieldset>
-                <input class="btn" type="submit" value="enviar" />
-
-            </fieldset>
 
 
-        </form>
-    </div>
+            </form>
+        </div>
+        
     </main>
     <section>
+        <h4>Places</h4>
+        <div class="mapas">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.657204204418!2d-87.63164432391429!3d41.900228771239256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f69da7%3A0x15e198c063fc787c!2sAJ%20Katzenmaier%20Elementary!5e0!3m2!1ses-419!2sar!4v1692495942772!5m2!1ses-419!2sar"
+        width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11378.73903113044!2d-88.05341191284181!3d44.521610100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802fa9658155365%3A0xaf227dec0e54a2ee!2sGreen%20Bay%20West%20High%20School!5e0!3m2!1ses-419!2sar!4v1692496475981!5m2!1ses-419!2sar"
+        width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.2698770484885!2d-87.85645602349278!3d42.3154422379186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses-419!2sar!4v1692496536959!5m2!1ses-419!2sar"
+        width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189377.02634767623!2d-87.91064155178668!3d42.128539922249715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fecd0628e1bb5%3A0x9a4d5f9aafd42e02!2sMarjorie%20P%20Hart%20School!5e0!3m2!1ses-419!2sar!4v1692496647137!5m2!1ses-419!2sar"
+        width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189629.35694495455!2d-88.18617440546876!3d42.04406590000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb793e8d23749%3A0xbdd4da26438cf3a0!2sNorth%20Elementary%20School!5e0!3m2!1ses-419!2sar!4v1692496727541!5m2!1ses-419!2sar"
+        width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189080.73766480878!2d-88.64667160546873!3d42.227554600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f6d4a6d2e1093%3A0xdea3c745e6bb6aa0!2sSouth%20Elementary%20School!5e0!3m2!1ses-419!2sar!4v1692496803482!5m2!1ses-419!2sar"
+        width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
         <h4>Permission to Play</h4>
         <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
             rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated
@@ -139,15 +169,16 @@
             to or from MDHL sponsored activities, which transportation
             By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso
             acknowledge that I have read the cancellation policy and agree to its terms. </p>
-            <form action="./show_data.html" method="get">
-                
-                <label for="responsable">Parent/GuardianSignature:</label>
-                <input type="text" name="responsable" id="responsable">
-                <label for="fecha">Date</label>
-                <input type="date" name="fecha" id="fecha">
-                <input class="btn" type="submit" value="enviar" />
-            
+        <form action="./show_data.html" method="get">
+
+            <label for="responsable">Parent/GuardianSignature:</label>
+            <input type="text" name="responsable" id="responsable">
+            <label for="fecha">Date</label>
+            <input type="date" name="fecha" id="fecha">
+            <input class="btn" type="submit" value="enviar" />
+
     </section>
+   
 </body>
 
 </html>

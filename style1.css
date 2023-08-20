@@ -37,6 +37,7 @@ h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: static;
     color: antiquewhite;
+   
 }
 
 li {
@@ -73,7 +74,7 @@ p {
 .caja-2 {
 
     position: relative;
-    bottom: 300px;
+    bottom: 350px;
     margin-left: 300px;
 }
 
@@ -115,7 +116,7 @@ dd {
 }
 .tabla1{  position: relative;
     bottom: -300px;
-    margin-left: -80px;
+    margin-left: -90px;
     padding: 10px;
 
 
@@ -132,7 +133,7 @@ tr {
 }
 
 table {
-    padding: 300px 30px 30px;
+    padding: 230px 30px 30px;
 
 }
 
@@ -156,20 +157,13 @@ footer{
     justify-content: flex-end;
     
 }
-.titulo{
-    position: relative;
-    bottom: 300px;
-    margin-left: 180px;
-    padding: 10px;
-
-}
 
 .formulario {
     display: flex;
     justify-content: center;
     background-color: rgb(233, 233, 79);
     position: relative;
-    height: 370px;
+    height: 390px;
     bottom: 470px;
     margin: 200px;
 }
@@ -195,4 +189,31 @@ legend {
     margin-left: -80px;
     padding: 10px;
 }
+.titulo{
+    position: relative;
+    bottom: 400px;
+    margin-left: 250px;
+    padding: 10px;
 
+}
+.titulorules{
+    position: relative;
+    bottom: 350px;
+    margin-left: 300px;
+}
+
+li a {
+    padding: 2px 5px 2px 5px;
+    color:white;
+    background-color:black;
+    border: 1px solid #cccccc;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+   
+
+ }
+ li a:hover{
+    background-color: #d88820;
+    color: #0c0101;
+ }
